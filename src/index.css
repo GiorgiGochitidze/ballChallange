@@ -6,8 +6,8 @@ body{
 }
 
 .container{
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     background-color: white;
     opacity: 0.3;
     margin: 50px auto;
@@ -44,4 +44,10 @@ body{
 
 .undo:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 492px){
+    .container{
+        width: 90%;
+    }
 }
